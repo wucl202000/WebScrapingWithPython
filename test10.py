@@ -35,5 +35,6 @@ try:
         print(newArticle)
         links = getLinks(newArticle)
 finally:
+
     cur.close()
     conn.close()
